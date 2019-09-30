@@ -255,6 +255,7 @@ form{
     color: #354050;
 }
 
+/*планшеты*/
 @media (max-width: 61rem){
     .header__row{
         flex-direction: column;
@@ -275,6 +276,7 @@ form{
     }
 }
 
+/*таблетки*/
 @media (max-width: 47rem){
     .container, .footer{
         width: 400px;
@@ -308,7 +310,7 @@ form{
         align-items: left;
     }
 }
-
+/*мобилки*/
 @media (max-width: 30rem){
     .container, .footer, form{
         width: 300px;
