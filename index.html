@@ -4,18 +4,277 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1 class="title">Форма для первого Домашнего Задания</h1>
-    <form action="">
-        <a href="https://www.google.ru">GOOGLE</a>
-        <label for="">Фамилия</label>
-        <input type="text">
-        <label for="">Имя</label>
-        <input type="text">
-        <button type="submit">Отправить</button>
-    </form>
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__logo">
+                    <img src="img/me.png" alt="" class="header__img">
+                </div>
+                <div class="header__info">
+                    <h1 class="header__title">
+                        Ковригина Анастасия 
+                    </h1>
+                    <h2 class="subtitle">
+                        Веб-разработчик
+                    </h2>
+                    <div class="header__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ut iure qui blanditiis adipisci esse minus corrupti enim maiores voluptatem rerum saepe cumque doloribus sequi inventore, quam pariatur quisquam est!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main__content">
+                <div class="main__info">
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <div class="info__title">
+                                <div class="info__icon">
+                                    <img src="img/user.svg" alt="" class="info__img">
+                                </div>
+                                <h2 class="subtitle">Контакты</h2>
+                            </div>
+                            <ul class="sublist">
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/tel.svg" alt="" class="sublist__img">
+                                    </div>
+                                    <a href="tel:+79777134355" class="tel">+7 (977) 713-43-55</a>
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/envelope.svg" alt="" class="sublist__img">
+                                    </div>
+                                    anastasiia.kovrighina@mail.ru
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/vk.svg" alt="" class="sublist__img">
+                                    </div>
+                                    kovrighka
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/gh.svg" alt="" class="sublist__img">
+                                    </div>
+                                    KOVRIGKA
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="info__item">
+                            <div class="info__title">
+                                <div class="info__icon">
+                                    <img src="img/growth.svg" alt="" class="info__img">
+                                </div>
+                                <h2 class="subtitle">Навыки</h2>
+                            </div>
+                            <ul class="sublist">
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/check.svg" alt="" class="sublist__img">
+                                    </div>
+                                    HTML, CSS
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/check.svg" alt="" class="sublist__img">
+                                    </div>
+                                    JavaScript
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/check.svg" alt="" class="sublist__img">
+                                    </div>
+                                    Photoshop
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/check.svg" alt="" class="sublist__img">
+                                    </div>
+                                    Pascal, C++
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/check.svg" alt="" class="sublist__img">
+                                    </div>
+                                    AutoCad
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="info__item">
+                            <div class="info__title">
+                                <div class="info__icon">
+                                    <img src="img/language.svg" alt="" class="info__img">
+                                </div>
+                                <h2 class="subtitle">Языки</h2>
+                            </div>
+                            <ul class="sublist">
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/map.svg" alt="" class="sublist__img">
+                                    </div>
+                                    English
+                                </li>
+                                <li class="sublist__item">
+                                    <div class="sublist__icon">
+                                        <img src="img/map.svg" alt="" class="sublist__img">
+                                    </div>
+                                    Francais
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main__desc">
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <div class="info__title">
+                                <div class="info__icon">
+                                    <img src="img/portfolio.svg" alt="" class="info__img">
+                                </div>
+                                <h2 class="subtitle">Опыт работы</h2>
+                            </div>
+                            <ul class="sublist">
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        Стажёр Project Manager в компании "HUAWEI"
+                                    </div>
+                                    <div class="work__date">09.2019 - наст. время</div>
+                                </li>
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        Преподаватель HTML и CSS
+                                    </div>
+                                    <div class="work__date">12.2018 - наст. время</div>
+                                    <ul class="work__list">
+                                        <li class="work__item">Отчитала курс "HTML и CSS создания сайтов с нуля" в школе им. В.И.
+                                            Чуйкова (10 и 11 класс), в школе No1234 (10 и 11 класс)
+                                        </li>
+                                        <li class="work__item">Отчитала курс "HTML и CSS создания сайтов с нуля" у двух групп (8-11
+                                            классы) в НИУ ВШЭ
+                                        </li>
+                                        <li class="work__item">На данный момент читаю курс "HTML и CSS создания сайтов с нуля" у группы (10-11
+                                            класс) в НИУ ВШЭ
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        Репетитор по математике
+                                    </div>
+                                    <div class="work__date">03.2018 - наст. время</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="info__item">
+                            <div class="info__title">
+                                <div class="info__icon">
+                                    <img src="img/edu.svg" alt="" class="info__img">
+                                </div>
+                                <h2 class="subtitle">Образование</h2>
+                            </div>
+                            <ul class="sublist">
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        НИУ "ВШЭ" (ГУ-ВШЭ)
+                                    </div>
+                                    <div class="work__date">2016 - 2020</div>
+                                    <ul class="work__list">
+                                        <li class="work__item">Бакалавр</li>
+                                        <li class="work__item">Направление: Информатика и Вычислительная тезника</li>
+                                        <li class="work__item">Специализация: Вычислительные системы и компьютерные сети</li>
+                                        <li class="work__item">GPA: 9.08 из 10</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="info__item">
+                            <div class="info__title">
+                                <div class="info__icon">
+                                    <img src="img/goal.svg" alt="" class="info__img">
+                                </div>
+                                <h2 class="subtitle">Проекты</h2>
+                            </div>
+                            <ul class="sublist">
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        Сайт ресторана "Mr. Burger"
+                                    </div>
+                                    <div class="work__date">https://kovrigka.github.io/burger/</div>
+                                </li>
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        3х-страничный сайт фитнес-клуба "Афродита"
+                                    </div>
+                                    <div class="work__date">https://kovrigka.github.io/Fitness-Club/</div>
+                                </li>
+                                <li class="sublist__items">
+                                    <div class="works">
+                                        <div class="sublist__icon">
+                                            <img src="img/check.svg" alt="" class="sublist__img">
+                                        </div>
+                                        Сайт "Доминиум" - срочный выкуп квартир в Москве и МО
+                                    </div>
+                                    <div class="work__date">https://kovrigka.github.io/Dominium/</div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <form action="">
+                <h2 class="subtitle footer__title">Хотите связаться со мной?</h2>
+                <ul class="form__list">
+                    <li class="form__item">
+                        <label for="" class="form__title">Имя</label>
+                        <input class="form__input" type="text" placeholder="Как можно к Вам обратиться?">
+                    </li>
+                    <li class="form__item">
+                        <label for="" class="form__title">E-mail</label>
+                        <input class="form__input" type="text" placeholder="Обещаю, что не отправлю спам">
+                    </li>
+                    <li class="form__item">
+                        <label for="" class="form__title">Тема</label>
+                        <input class="form__input" type="text" placeholder="О чем Вы хотите поговорить?">
+                    </li>
+                    <li class="form__item">
+                        <label for="" class="form__title">Сообщение</label>
+                        <textarea class="form__texarea" name="" id="" cols="30" rows="10" placeholder="Отправьте мне сообщение, и я постараюсь ответить как можно скорее"></textarea>        
+                    </li>
+                </ul>
+                <button class="form__button">Отправить</button>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>
