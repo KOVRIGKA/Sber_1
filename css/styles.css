@@ -254,3 +254,63 @@ form{
     background-color: #568ebb;
     color: #354050;
 }
+
+@media (max-width: 61rem){
+    .header__row{
+        flex-direction: column;
+        vertical-align: center;
+    }
+    .container{
+        width: 600px;
+    }
+
+    .header__desc{
+        margin-bottom: 2rem;
+    }
+
+    .header__info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 47rem){
+    .container, .footer{
+        width: 400px;
+    }
+
+    .main__content{
+        flex-direction: column;
+    }
+
+    .main__info{
+        border-right: none;
+        
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .main__desc{
+        border-top: #568ebb 1rem solid;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding-top: 1rem;
+    }
+    
+    .info__title{
+    }
+
+    form{
+        width: 400px;
+        align-items: left;
+    }
+}
+
+@media (max-width: 30rem){
+    .container, .footer, form{
+        width: 300px;
+    }
+}
